@@ -1,0 +1,19 @@
+h1 {
+  color: green;
+}
+
+h2 {
+  color: greenyellow;
+  background-color: black;
+  font-style: italic;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 30%;
+  text-align: center;
+}
+
+h2:hover {
+  color: red;
+  cursor: pointer;
+}

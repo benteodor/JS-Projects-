@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-image: url(pxfuel.jpg);
+  background-size: cover;
+  background-position: center;
+  background: transparent;
+  z-index: 1;
+  position: relative;
+}
+
+h1 {
+  font-size: larger;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(145, 95, 2);
+}
+
+h2 {
+  font-size: larger;
+  font-weight: 300;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(145, 95, 2);
+}
+
+p {
+  color: brown;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

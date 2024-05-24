@@ -1,0 +1,266 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  width: 100%;
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+  color: black;
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin: 2rem;
+  width: 90%;
+}
+
+.singlepage {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.singlepage img {
+  width: 50%;
+}
+
+header {
+  display: flex;
+  overflow: auto;
+  flex-direction: row;
+  align-items: center;
+  overflow: auto;
+  background-color: lightskyblue;
+  margin: 0 auto;
+  padding: 0.5em;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 4;
+}
+
+.logo {
+  position: sticky;
+  top: 0;
+}
+
+header .logo {
+  flex: 1;
+}
+
+#hero-banner {
+  position: relative;
+  max-width: 100%;
+  max-height: 50%;
+  background-size: cover;
+  background-position: center;
+  z-index: 2;
+}
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  z-index: 3;
+}
+
+.hero-text p {
+  font-size: larger;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: aquamarine;
+  text-align: center;
+}
+
+img {
+  width: 50%;
+  height: 50%;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline;
+  font-size: 1.5rem;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.logo {
+  font-family: "Keania One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+
+.planner h1 {
+  text-align: center;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.weather-app {
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./assets/pexels-dariuskrs-2470655.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.weather-container {
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(30px);
+  text-align: center;
+  max-width: 50%;
+  min-height: 50%;
+  border-radius: 20px;
+  padding: 0 1rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.weather-app .top {
+  width: 100%;
+  margin: 1rem auto;
+}
+
+.weather-app .description {
+  position: relative;
+}
+
+.weather-app .bottom {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  width: 100%;
+  margin: 1rem auto;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  padding: 0.5rem;
+  font-weight: bold;
+}
+
+.bottom p {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.plannerForm {
+  text-align: center;
+  background-color: #303440;
+  max-width: 90%;
+  border-radius: 20px;
+  margin: 2rem;
+}
+
+.plan {
+  text-align: center;
+  background-color: #2e83f2;
+  border-radius: 20px;
+  margin: 2rem;
+  width: 30%;
+  padding: 1rem;
+}
+
+.weather-app .search {
+  text-align: center;
+}
+
+.weather-app button {
+  position: relative;
+  top: 30%;
+  left: 10%;
+}
+
+.material-symbols-outlined {
+  margin: 1rem;
+  font-size: 3rem;
+}
+.material-symbols-outlined .main {
+  font-size: 4rem;
+}
+
+input {
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.top p,
+.top h2 {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+
+button {
+  padding: 1rem;
+  margin: 1rem;
+  border-style: none;
+  border-radius: 10px;
+  background-color: #646cff;
+  color: white;
+  box-shadow: 5px 5px darkblue;
+  font-size: 1.4rem;
+}
+
+.home p {
+  text-align: center;
+  margin: 1rem;
+  padding: 1rem;
+}
